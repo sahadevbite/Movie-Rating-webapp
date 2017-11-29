@@ -1,0 +1,111 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 27, 2014, 1:34:36 PM
+    Author     : Administrator
+*/
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    
+    float: left;
+}
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    background-color: #333;
+}
+
+input[type=submit],input[type=file]{
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+ul2 {
+    position: inherit;
+    font-family: "Montserrat", sans-serif;
+    list-style-type: none;
+    float: center;
+    margin: 0;
+    padding: 0;
+}
+lihome{
+    float:right;
+    
+}
+li {
+    
+    float: right;
+    border-right: 3px solid #ffffff;
+    
+    
+    
+}
+
+lihome a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #cecece;
+}
+
+.active{
+    background-color: #cecece;
+}
+header {
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+}
+h1,h2,h3,p {
+    font-family: "Montserrat", sans-serif;
+}
+td,  th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-family: "Monsterrat", sans-serif;
+    text-color:#ffffff;
+}
+
+tr:nth-child(even){
+    font-family: "Monsterrat", sans-serif;
+    background-color: #666666;
+    text-color:#ffffff;
+}
+
+tr:hover {background-color: #ccccff;}
+
+ th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+}
